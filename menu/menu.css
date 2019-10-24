@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background:#31957A;
+}
+
+main {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
+.container {
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  transition: all .7s ease;
+}
+
+.bar {
+  display: block;
+  height: 5px;
+  width: 50px;
+  background: #fff;
+  margin: 10px auto;
+  transition: all .7s ease;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.container:hover .top {
+  transform: translateY(15px) rotateZ(45deg);
+}
+
+.container:hover .center {
+  width: 0;
+}
+
+.container:hover .bottom {
+  transform: translateY(-15px) rotateZ(-45deg);
+}
