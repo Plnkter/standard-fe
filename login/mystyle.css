@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  background-image:  url(./asset/brand-lines.png), url(./asset/Panel.png), url(./asset/bg-image.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover;
+}
+
+.images {
+  position: relative;
+}
+
+#logo, #signIn, #line {
+  position: absolute;
+  right: 100px;
+
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  right: 13%;
+  font-family: "Open Sans";
+  font-weight: 650;
+  font-size: 14px;
+  color:#575757;
+}
+
+#user-name, #password {
+  width: 255px;
+  height: 25px;
+  padding: 3px;
+  margin: 5px 0;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+#user-name::placeholder, #password::placeholder {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: italic;
+}
+
+#login {
+  width: 121px;
+  height: 36px;
+  font-family: "Open Sans";
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  background-image: url(./asset/buttonBox.png);
+
+}
